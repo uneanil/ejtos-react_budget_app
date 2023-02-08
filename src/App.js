@@ -19,11 +19,8 @@ const App = () => {
   return (
     <AppProvider>
       <div className="container">
-        <div className="row">
-          <h1 className="col-10 mt-3">Company's Budget Allocation</h1>
+        <h1 className="mt-3">Company's Budget Allocation</h1>
 
-          <Currency />
-        </div>
         <div className="row mt-3">
           {/* // Budget component */}
           <div className="col-sm">
@@ -38,6 +35,9 @@ const App = () => {
           {/* //ExpenseTotal component */}
           <div className="col-sm">
             <ExpenseTotal />
+          </div>
+          <div className="col-sm">
+            <Currency />{" "}
           </div>
           <div className="mt-3">
             <h2>Allocation</h2>

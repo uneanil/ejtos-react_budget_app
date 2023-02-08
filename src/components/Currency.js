@@ -14,7 +14,7 @@ const Currency = (props) => {
   }, [currency]);
 
   return (
-    <div className="btn-group col-2 mt-3">
+    <div className="btn-group w-100 h-75">
       <button
         type="button"
         className="btn btn-danger dropdown-toggle"
